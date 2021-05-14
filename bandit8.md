@@ -23,6 +23,3 @@ but unique command can function only when the data is sorted. so we need to use 
 ```
 ssh bandit8@bandit.labs.overthewire.org -p 2220 "ls ; sort data.txt | uniq -u"
 ```
-
-## Suggested modifications [Optional]
-What can you do to make this level more difficult. The inherent idea should be similar.

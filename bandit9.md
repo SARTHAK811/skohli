@@ -24,5 +24,3 @@ Firstly i did only strings data.txt .After doing this i got many lines of text i
 ssh bandit9@bandit.labs.overthewire.org -p 2220 " ls ; strings data.txt | grep '======' "
 ```
 
-## Suggested modifications [Optional]
-What can you do to make this level more difficult. The inherent idea should be similar.

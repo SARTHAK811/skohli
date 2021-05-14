@@ -11,7 +11,6 @@ grep - grep is a command that is used to search for a string of characters in a 
 ```
 
 ## Walkthrough
-How did you solve this level? Include the complete thought process, even stuff that didn't work. Give explanations wherever necessary.
 To solve this level i wanted to find out few human-readable strings, preceded by several ‘=’ characters.
 So intuitively it feels that i want human readable strings first and then i will see the text which is preceded by several '=' characters.
 Firstly i did only strings data.txt .After doing this i got many lines of text in which i saw those text that were preceded by '=' characters.So clearly i could se that there were many lines of text that had stings of '=' in start so i used grep command so as to get only those lines that had '=' characters .Hence i used piping to do both together and got the password.
